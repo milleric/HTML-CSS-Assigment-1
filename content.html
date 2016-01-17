@@ -5,48 +5,85 @@ Date:		1/14/16
 Assignment:	HTML/CSS Assignment (Week 2)
 
 -->
-
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Cool Beans</title>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
 
 <!--Table-->
-<table>
-
-	<tbody>
+<p> Who wins? Cell content indicates the status of the row entry</p>
+<table style=solid>
 		<!--Row 1-->
 		<thead>
-			<td></td><td>Batman</td><td>Godzilla</td><td>Shaq</td><td>Aaron Carter</td><td>Abe Lincoln</td>
+			<td></td><th>Batman</th><th>Godzilla</th><th>Shaq</th><th>Aaron Carter</th><th>Abe Lincoln</th>
 		</thead>
+	<tbody>	
 		<!--Row 2-->
 		<tr>
-			<td>Godzilla</td><td>N/A</td><td>Minor Loss</td><td>Loss</td><td>Unknown</td><td>Unknown</td>
+			<td><em>Godzilla</em></td><td>N/A</td><td>Minor Loss</td><td>Loss</td><td>Unknown</td><td>Unknown</td>
 		</tr>
 		<!--Row 3-->
 		<tr>
-			<td>Batman</td><td>Minor Win</td><td>N/A</td><td>Total Victory</td><td>Total Victory</td><td>Total Loss</td>
+			<td><em>Batman</em></td><td>Minor Win</td><td>N/A</td><td>Total Victory</td><td>Total Victory</td><td>Total Loss</td>
 		</tr>
 		<!--Row 4-->
 		<tr>
-			<td>Shaq</td><td>Win</td><td>Total Loss</td><td>N/A</td><td>Minor Loss</td><td>Unknown</td>
+			<td><em>Shaq</em></td><td>Win</td><td>Total Loss</td><td>N/A</td><td>Minor Loss</td><td>Unknown</td>
 		</tr>
 		<!--Row 5-->
 		<tr>
-			<td>Aaron Carter</td><td>Unknown</td><td>Total Loss</td><td>Minor Win</td><td>N/A</td><td>Unknown</td>
+			<td><em>Aaron Carter</em></td><td>Unknown</td><td>Total Loss</td><td>Minor Win</td><td>N/A</td><td>Unknown</td>
 		</tr>
 		<!--Row 6-->
 		<tr>
-			<td>Abe Lincoln</td><td>Unknown</td><td>Total Victory</td><td>Unknown</td><td>Minor Loss</td><td>N/A</td>
+			<td><em>Abe Lincoln</em></td><td>Unknown</td><td>Total Victory</td><td>Unknown</td><td>Minor Loss</td><td>N/A</td>
 		</tr>
 		<!--Row 4-->
+	</tbody>	
 		<tfoot>
-			<td>Footer 1</td><td></td><td>Footer 2</td><td></td><td></td><td></td>
+			<td colspan="2">Footer 1</td><td colspan="4">Footer 2</td>
 		</tfoot>
-	</tbody>
-
-
 </table>
 
 <!--Ordered List with at least 3 items-->
-<ol>
+<dl>
+	<dt>Best Language</dt>
+	<dd>Python</dd>
+	<dt>wackyest Language</dt>
+	<dd>Haskell</dd>
+	<dt>SEGFAULTiest Language</dt>
+	<dd>C</dd>
+</dl>
+
+<div class="outer-content">
+	<div class="inner-content">
+	Inner Content
+	</div>
+</div>
+<form>
+
+
+<form/>
+
+<p id="formfield"> Name Here</p>
 
 
 
-</ol>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
